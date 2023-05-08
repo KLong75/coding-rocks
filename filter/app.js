@@ -98,6 +98,29 @@ const greatAlbums = [
     genre: 'Hard Rock'
   },
   {
+    title: 'Superunknown',
+    artist: 'Soundgarden',
+    year: 1994,
+    genre: 'Grunge'
+  },
+  {
+    title: 'King Animal',
+    artist: 'Soundgarden',
+    year: 2012,
+    genre: 'Grunge'
+  },
+  {
+    title: 'Lightning Bolt',
+    artist: 'Pearl Jam',
+    year: 2013,
+    genre: 'Grunge'
+  },
+  {
+    title: 'The Devil Put Dinosaurs Here',
+    artist: 'Alice in Chains',
+    year: 2013,
+  },
+  {
     title: 'Use Your Illusion II',
     artist: 'Guns N\' Roses',
     year: 1991,
@@ -146,6 +169,18 @@ const greatAlbums = [
     genre: 'Post-Hardcore'
   },
   {
+    title: 'Gigaton',
+    artist: 'Pearl Jam',
+    year: 2020,
+    genre: 'Grunge'
+  },
+  {
+    title: 'Your Likeness or Please Give Me a Dollar For Health Insurance',
+    artist: 'Vain Mainstream',
+    year: 2023,
+    genre: 'Rock'
+  },
+  {
     title: 'Repeater',
     artist: 'Fugazi',
     year: 1990,
@@ -165,5 +200,17 @@ const greatAlbums = [
   }
 ]
 
-console.log('Great Albums: ' ,greatAlbums);
+console.log ('Great Albums: ', greatAlbums)
+
+// 1. Filter by artist
+const pearlJamAlbums = greatAlbums.filter(album => album.artist === 'Pearl Jam')
+console.log('Pearl Jam Albums: ', pearlJamAlbums)
+// 2. Filter by genre
+
+// 3. Filter by year
+
+// 4. Filter by decade
+
+// 5. Filter by artist & decade
+
 
